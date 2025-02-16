@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
     namespace: default
   source:
-    repoURL: https://github.com/kbabuadze/app-state.git
+    repoURL: https://github.com/kbabuadze/apps-state.git
     path: ./manifestst/kustomize/nginx/overlays/cluster-1
     targetRevision: main
   syncPolicy:
