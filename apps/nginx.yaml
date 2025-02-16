@@ -10,7 +10,7 @@ spec:
     namespace: default
   source:
     repoURL: https://github.com/kbabuadze/apps-state.git
-    path: ./manifestst/kustomize/nginx/overlays/cluster-1
+    path: ./manifests/kustomize/nginx/overlay/cluster-1
     targetRevision: main
   syncPolicy:
     automated:
